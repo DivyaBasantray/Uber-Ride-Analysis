@@ -1,2 +1,3 @@
 # Uber-Ride-Analysis
-This project cleans and prepares 150,000 NCR ride bookings using SQL, fixing datatypes, missing values, and ride categories. The cleaned dataset is then used in Python for exploratory analysis on demand trends, cancellations, driver availability, and ride behavior.
+
+This project analyzes 150,000 NCR ride bookings to build a clean, structured dataset for Python-based exploratory analysis. The raw CSV is transformed using SQL, where all text fields are standardized, blank values are converted to NULL, numeric columns are fixed, and cancellation or incomplete ride flags are cleaned. Additional features like ride hour, weekday, and ride type are created to support deeper insights. The final dataset helps uncover patterns in demand, cancellations, driver availability, payment behavior, and operational issues. This workflow reflects a real-world data cleaning and preparation pipeline for mobility analytics.
