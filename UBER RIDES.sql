@@ -333,33 +333,3 @@ ALTER TABLE uber_bookings
 MODIFY customer_id VARCHAR(15);
 
 DESCRIBE uber_bookings;
-
-SELECT 
-    'ride_date','ride_time','booking_id','booking_status','customer_id',
-    'vehicle_type','pickup_location','drop_location','avg_vtat','avg_ctat',
-    'cancelled_by_customer','cust_cancel_reason','cancelled_by_driver','driver_cancel_reason',
-    'incomplete_rides','incomplete_reason','booking_value','ride_distance','driver_rating',
-    'customer_rating','payment_method','ride_type','ride_hour','ride_weekday','ride_month'
-UNION ALL
-SELECT 
-    ride_date, ride_time, booking_id, booking_status, customer_id,
-    vehicle_type, pickup_location, drop_location, avg_vtat, avg_ctat,
-    cancelled_by_customer, cust_cancel_reason, cancelled_by_driver, driver_cancel_reason,
-    incomplete_rides, incomplete_reason, booking_value, ride_distance, driver_rating,
-    customer_rating, payment_method, ride_type, ride_hour, ride_weekday, ride_month
-FROM uber_bookings
-INTO OUTFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/ncr_ride_bookings_clean_with_header.csv'
-FIELDS TERMINATED BY ','
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n';
-
--- MISCELLANEOUS
-
-SELECT COUNT(*)
-FROM uber_bookings
-WHERE booking_status = 'Completed';
-
-SELECT booking_status, COUNT(*)
-FROM uber_bookings
-WHERE booking_value IS NOT NULL
-GROUP BY booking_status;
