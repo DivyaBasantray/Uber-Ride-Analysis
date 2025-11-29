@@ -134,3 +134,5 @@ All these issues were fixed using SQL before analysis.
 Here's a preview of the dashboard:
 
 ![Uber Dashboard Overview](https://raw.githubusercontent.com/DivyaBasantray/Uber-Ride-Analysis/main/Screenshot%20of%20the%20Dashboard%20(Overview).png)
+
+![Uber Dashboard Overview](https://raw.githubusercontent.com/DivyaBasantray/Uber-Ride-Analysis/main/Screenshot%20of%20the%20Dashboard%20(Ratings).png).
