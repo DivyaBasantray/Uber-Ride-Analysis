@@ -1,9 +1,9 @@
 # 🚖 **Uber Ride Analysis Dashboard**
 
 ## 🎯 **1. Project Objective**
-The goal of this project was to analyze one full year of Uber ride activity using SQL, Python and Power BI.  
-The main focus was to understand ride demand, cancellations, revenue patterns and the overall quality of drivers and customers.  
-This dashboard helps identify how Uber rides behave across time, locations, vehicle types and user behaviour.
+- The goal of this project was to analyze one full year of Uber ride activity using SQL, Python and Power BI.  
+- The main focus was to understand ride demand, cancellations, revenue patterns and the overall quality of drivers and customers.  
+- This dashboard helps identify how Uber rides behave across time, locations, vehicle types and user behaviour.
 
 ---
 
