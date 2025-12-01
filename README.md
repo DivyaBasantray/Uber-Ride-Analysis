@@ -1,4 +1,4 @@
-# 🚖 **Uber Ride Analysis Dashboard**
+# **Uber Ride Analysis Dashboard**
 
 ## 🎯 **1. Project Objective**
 - The goal of this project was to analyze one full year of Uber ride activity using SQL, Python and Power BI.  
