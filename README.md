@@ -7,7 +7,7 @@
 
 ---
 
-## 📊 **2. Key Insights (From the Power BI Dashboard)**  
+## 📊 **2. Key Insights (From Power BI Dashboard)**  
 Here’s a summary of the most important findings:
 
 ### ✅ **Ride Completion & Cancellations**
