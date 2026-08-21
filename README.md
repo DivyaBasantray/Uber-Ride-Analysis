@@ -122,7 +122,7 @@ Columns included:
 - The data was initially raw, inconsistent and contained empty strings, text-based numbers and missing values.  
 - All these issues were fixed using SQL before analysis.
 
-Data Preparation : 
+**Data Preparation :**
 - Cleaned in SQL
 - Exploratory data analysis in Python
 - Visualized in Power BI
