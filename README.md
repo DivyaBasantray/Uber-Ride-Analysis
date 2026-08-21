@@ -115,12 +115,12 @@ Columns included:
 - Driver / customer ratings  
 - Ride outcome (completed, cancelled, no driver found, incomplete)
 
-Dataset Source: https://www.kaggle.com/datasets/yashdevladdha/uber-ride-analytics-dashboard/data 
+**Dataset Source:** https://www.kaggle.com/datasets/yashdevladdha/uber-ride-analytics-dashboard/data 
 
-Tools Used: SQL | Python | Power BI
+**Tools Used:** SQL | Python | Power BI
 
-The data was initially raw, inconsistent and contained empty strings, text-based numbers and missing values.  
-All these issues were fixed using SQL before analysis.
+- The data was initially raw, inconsistent and contained empty strings, text-based numbers and missing values.  
+- All these issues were fixed using SQL before analysis.
 
 Data Preparation : 
 - Cleaned in SQL
